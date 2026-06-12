@@ -1,60 +1,154 @@
-# AI Driver Drowsiness Detection System
+# 🚗 AI Driver Drowsiness Detection System
 
-## Overview
+A real-time Computer Vision and AI-powered Driver Drowsiness Detection System developed using Python, OpenCV, and Dlib. The system continuously monitors a driver's eye movements through a webcam and detects signs of fatigue based on eye closure duration. If the driver's eyes remain closed for more than 5 seconds, an alert message and alarm sound are triggered to help prevent accidents caused by drowsiness.
 
-This project is a Real-Time Driver Drowsiness Detection System developed using Python, OpenCV, and Dlib. The system monitors a driver's eyes through a webcam and detects drowsiness when the eyes remain closed for more than 5 seconds.
+---
 
-## Features
+## 📌 Project Overview
+
+Driver fatigue is one of the leading causes of road accidents worldwide. This project aims to improve road safety by monitoring a driver's alertness in real time using facial landmark detection and Eye Aspect Ratio (EAR) analysis.
+
+The system uses a webcam to detect the driver's face, track eye landmarks, calculate eye openness, and identify prolonged eye closure associated with drowsiness.
+
+---
+
+## ✨ Features
 
 * Real-time webcam monitoring
-* Eye closure detection
 * Facial landmark detection using Dlib
-* Audio alert using alarm.wav
-* Visual warning message
-* Computer Vision based safety system
+* Eye Aspect Ratio (EAR) based drowsiness detection
+* Detects prolonged eye closure
+* Visual warning message on screen
+* Audio alarm notification
+* Lightweight and efficient implementation
+* Easy to deploy and customize
 
-## Technologies Used
+---
 
-* Python
-* OpenCV
-* Dlib
-* NumPy
-* SciPy
-* Playsound
+## 🛠️ Technologies Used
 
-## Installation
+| Technology | Purpose                    |
+| ---------- | -------------------------- |
+| Python     | Core Programming Language  |
+| OpenCV     | Real-Time Video Processing |
+| Dlib       | Facial Landmark Detection  |
+| NumPy      | Numerical Computation      |
+| SciPy      | Distance Calculations      |
+| Playsound  | Audio Alert System         |
 
-1. Create a virtual environment
+---
+
+## 📂 Project Structure
+
+AI-Driver-Drowsiness-Detection-System
+
+├── main.py
+
+├── requirements.txt
+
+├── README.md
+
+├── alarm.wav
+
+└── shape_predictor_68_face_landmarks.dat
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
+
+git clone https://github.com/yourusername/AI-Driver-Drowsiness-Detection-System.git
+
+### 2. Navigate to Project Folder
+
+cd AI-Driver-Drowsiness-Detection-System
+
+### 3. Create Virtual Environment
 
 python -m venv drowsy_env
 
-2. Activate the environment
+### 4. Activate Virtual Environment
+
+Windows:
 
 drowsy_env\Scripts\activate
 
-3. Install required packages
+### 5. Install Required Packages
 
 pip install -r requirements.txt
 
-4. Download shape_predictor_68_face_landmarks.dat
+### 6. Download Facial Landmark Model
 
-5. Place the file in the project folder
+Download:
 
-6. Run the project
+shape_predictor_68_face_landmarks.dat
+
+From:
+
+https://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+
+Extract the downloaded file and place it inside the project folder.
+
+### 7. Run the Application
 
 python main.py
 
-## Project Files
+---
 
-* main.py
-* requirements.txt
-* alarm.wav
-* README.md
+## 🚀 How It Works
 
-## How It Works
+1. Webcam captures live video frames.
+2. Dlib detects the driver's face.
+3. Facial landmarks around the eyes are extracted.
+4. Eye Aspect Ratio (EAR) is calculated.
+5. If eyes remain closed for more than 5 seconds:
 
-The webcam continuously monitors the driver's eyes. If the eyes remain closed for more than 5 seconds, the system displays a "DROWSINESS ALERT!" message and plays an alarm sound.
+   * DROWSINESS ALERT! message is displayed.
+   * Alarm sound is triggered.
+6. Monitoring continues until the application is closed.
 
-## Author
+---
 
-Vijay Krishnan P.M.
+## 🎯 Applications
+
+* Driver Safety Systems
+* Smart Vehicles
+* Fleet Monitoring
+* Transportation Safety
+* Industrial Operator Monitoring
+* Fatigue Detection Research
+
+---
+
+## 🔮 Future Enhancements
+
+* Yawning Detection (MAR)
+* Head Pose Estimation
+* Mobile Application Integration
+* Driver Monitoring Dashboard
+* Night Vision Support
+* Email/SMS Emergency Alerts
+* Deep Learning-Based Fatigue Detection
+
+---
+
+## 📸 Project Demonstration
+
+### Normal Monitoring
+
+(Add screenshot here)
+
+### Drowsiness Alert
+
+(Add screenshot here)
+
+---
+
+## 👨‍💻 Author
+
+**Vijay Krishnan P.M.**
+
+---
+
+## ⭐ If you found this project useful, consider giving it a star on GitHub.
