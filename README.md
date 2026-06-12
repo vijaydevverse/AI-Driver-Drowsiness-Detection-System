@@ -1,6 +1,6 @@
 # 🚗 AI Driver Drowsiness Detection System
 
-A real-time Computer Vision and AI-powered Driver Drowsiness Detection System developed using Python, OpenCV, and Dlib. The system continuously monitors a driver's eye movements through a webcam and detects signs of fatigue based on eye closure duration. If the driver's eyes remain closed for more than 5 seconds, an alert message and alarm sound are triggered to help prevent accidents caused by drowsiness.
+A real-time Computer Vision and AI-powered Driver Sleep Detection System developed using Python, OpenCV, and Dlib. The system continuously monitors a driver's eye movements through a webcam and detects signs of fatigue based on eye closure duration. If the driver's eyes remain closed for more than 3 seconds, an alert message and alarm sound are triggered to help prevent accidents caused by drowsiness.
 
 ---
 
@@ -58,7 +58,7 @@ AI-Driver-Drowsiness-Detection-System
 
 ### 1. Clone the Repository
 
-git clone https:[//github.com/yourusername/AI-Driver-Drowsiness-Detection-System.git](https://github.com/vijaydevverse/AI-Driver-Drowsiness-Detection-System)
+git clone https:https://github.com/vijaydevverse/AI-Driver-Drowsiness-Detection-System
 
 ### 2. Navigate to Project Folder
 
@@ -130,18 +130,6 @@ python main.py
 * Night Vision Support
 * Email/SMS Emergency Alerts
 * Deep Learning-Based Fatigue Detection
-
----
-
-## 📸 Project Demonstration
-
-### Normal Monitoring
-
-(Add screenshot here)
-
-### Drowsiness Alert
-
-(Add screenshot here)
 
 ---
 
