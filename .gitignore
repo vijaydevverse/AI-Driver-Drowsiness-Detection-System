@@ -1,0 +1,5 @@
+drowsy_env/
+__pycache__/
+*.pyc
+shape_predictor_68_face_landmarks.dat
+test_sound.py
