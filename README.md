@@ -58,7 +58,7 @@ AI-Driver-Drowsiness-Detection-System
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/AI-Driver-Drowsiness-Detection-System.git
+git clone https:[//github.com/yourusername/AI-Driver-Drowsiness-Detection-System.git](https://github.com/vijaydevverse/AI-Driver-Drowsiness-Detection-System)
 
 ### 2. Navigate to Project Folder
 
